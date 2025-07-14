@@ -35,4 +35,26 @@ void findWinner() {
     else
         printf("It's a tie or no votes cast.\n");
 }
+int main() {
+    int option;
 
+    do {
+        printf("\n--- Voting Menu ---\n");
+        printf("1. Cast Vote\n");
+        printf("2. View Votes\n");
+        printf("3. Show Winner\n");
+        printf("0. Exit\n");
+        printf("Enter option: ");
+        scanf("%d", &option);
+
+        switch(option) {
+            case 1: castVote(); break;
+            case 2: showVotes(); break;
+            case 3: findWinner(); break;
+            case 0: printf("Exiting...\n"); break;
+            default: printf("Invalid option. Try again.\n");
+        }
+    } while (option != 0);
+
+    return 0;
+}
