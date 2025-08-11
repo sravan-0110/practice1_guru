@@ -61,3 +61,8 @@ int main() {
 
     return 0;
 }
+<<<<<<< HEAD
+welcome home sravan
+=======
+welcome world
+>>>>>>> prac1.c
