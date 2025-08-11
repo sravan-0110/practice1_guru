@@ -37,6 +37,7 @@ void findWinner() {
 }
 int main() {
     int option;
+    @@@@@@@@@@@@@
 
     do {
         printf("\n--- Voting Menu ---\n");
